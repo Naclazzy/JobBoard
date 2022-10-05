@@ -1,0 +1,42 @@
+.row{
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company, .position{
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.left-section, .mid-section{
+    width: 33%;
+}
+
+.mid-section{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.right-section{
+    width: 20%;
+}
+
+.position{
+
+}
+
+.location{
+    font-size: 8px;
+    border: 1px solid grey,
+}
+
+.tag{
+    margin: 5px;
+    border: 1px solid grey;
+}
+
+
+
