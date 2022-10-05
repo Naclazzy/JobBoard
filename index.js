@@ -23,7 +23,7 @@ xhttp.onreadystatechange = function() {
                 return `<div class="tag">${tag}</div>`
             }).join('')}
         </div>
-        <div class="mid-right-section">${new Date(row.date).toLocaleDateString}</div>
+        <div class="mid-right-section">${new Date(row.date).toLocaleString()}</div>
         <div class="right-section">
         <a href=${row.url}>
         <button class="apply">Apply</button>
